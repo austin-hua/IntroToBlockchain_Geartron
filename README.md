@@ -13,3 +13,5 @@ Compilation (provisional): g++ main.cpp Block.cpp Blockchain.cpp sha256.cpp -o g
 * The material that we referenced for this project includes the following.
   * Basic blockchain example (partial derivation): https://github.com/teaandcode/TestChain
   * SHA-256 Algorithm: https://github.com/QuantumMechanics/Kraken/blob/master/sha256.cpp
+  * This is a very useful reference for creating P2P structure: https://github.com/tko22/simple-blockchain
+  * We use this library for reading and writing to JSON files: https://github.com/nlohmann/json
