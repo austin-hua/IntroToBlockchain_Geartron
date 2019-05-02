@@ -1,24 +1,13 @@
-#include <iostream>
-#include <cstdlib>
+#include "Blockchain.h"
 
-#include "geartron.h"
+using namespace std;
 
-const int VERSION = 0x1;
+int main() {
+    Blockchain quantumChain = Blockchain();
 
-char *hash(
-
-typedef struct BlockHeader {
-    unsigned version;
-    char prevBlock[32]; // hash of previous block
-    char target[32]; // target difficulty
-    unsigned nonce[32];
-    int merkel = 0;
-} BlockHeader;
-
-
-int main(void) {
-    
-    
-    
-    return EXIT_SUCCESS;
+    while(true) { // continue to add blocks
+	    quantumChain.addBlock(Block("Block datum"));
+	    cout << quantumChain.longestChain[quantumChain.longestChain.size()-1].hash << endl;
+	}
+    return 0;
 }
