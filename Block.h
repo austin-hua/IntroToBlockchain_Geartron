@@ -16,7 +16,7 @@ public:
     void mineBlock();
 
 private:
-	uint32_t version;
+    uint32_t version;
     uint32_t nonce;
     uint32_t targetInt;
     string data;
