@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.2",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.19",
     "vorpal": "^1.12.0"
   },
   "scripts": {
